@@ -5,6 +5,9 @@ This Repository contains three tasks and their complete implementation done usin
 
 This project leverages **Deep Learning and Speech Processing** to detect **early signs of Parkinson’s disease** based on **biometric data and speech patterns**. The model combines **CNN + LSTM networks** with **Google Gemini AI** for explainability.  
 
+# Dataset for the Parkinson's prediction is available here:
+link: https://drive.google.com/drive/folders/1duVXppuKmkRMZ8V-MlbK1i76XILB4lI6?usp=sharing
+
 # **Features**  
 - **Multi-Input Analysis** → Supports **`.wav` speech recordings & `.csv` biometric data**.  
 - **Speech Feature Extraction** → Uses **MFCCs (Mel-Frequency Cepstral Coefficients)** for precise voice analysis.  
@@ -105,4 +108,6 @@ This project implements **real-time hand tracking** using **Computer Vision (Ope
 - **Chatbot:** *"Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly..."*  
 - **Fallback:** *"I'm sorry, I don't have an answer for that. Try typing a more relevant question!"*
 --------------------------------------------------------------------------------------------------------
+
+
 
