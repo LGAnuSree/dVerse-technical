@@ -63,7 +63,7 @@ This project implements **real-time hand tracking** using **Computer Vision (Ope
 - **Programming Language:** Python.
 -----------------------------------------------------------------------------------------------
 
-# **FAQ Chatbot Using NLP**  
+# **3. FAQ Chatbot Using NLP**  
 *An AI-powered chatbot that provides instant answers to frequently asked questions (FAQs).*  
 
 
