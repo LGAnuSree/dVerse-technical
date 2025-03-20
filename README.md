@@ -103,9 +103,6 @@ This project implements **real-time hand tracking** using **Computer Vision (Ope
 ## **Expected Output**
 - **User:** *"What is Amazon SageMaker?"*  
 - **Chatbot:** *"Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly..."*  
-- **Fallback:** *"I'm sorry, I don't have an answer for that. Try typing a more relevant question!"*  
-
-
-
-
+- **Fallback:** *"I'm sorry, I don't have an answer for that. Try typing a more relevant question!"*
+--------------------------------------------------------------------------------------------------------
 
