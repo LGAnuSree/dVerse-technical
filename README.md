@@ -13,13 +13,13 @@ This project leverages **Deep Learning and Speech Processing** to detect **early
 - **AI-Generated Explanations** → **Google Gemini AI** provides insights into predictions.  
 - **Confidence Score Visualization** → Displays probability distribution of Parkinson’s severity.  
 
-# **📜 Project Overview**  
-### **1️⃣ Data Processing**  
+# **Project Overview**  
+### **Data Processing**  
 - **Loads & preprocesses `.csv` files** containing patient **biometric data**.  
 - **Extracts MFCC features** from `.wav` audio files to analyze speech variations.  
 - **Standardizes all features** using **`StandardScaler()`** to optimize model performance.  
 
-### **2️⃣ Model Architecture (CNN + LSTM)**  
+# **Model Architecture (CNN + LSTM)**  
 The model consists of:  
 - **1D Convolutional Layers** → Extracts speech frequency patterns.  
 - **Batch Normalization & MaxPooling** → Enhances feature learning.  
