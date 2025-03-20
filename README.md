@@ -57,11 +57,55 @@ This project implements **real-time hand tracking** using **Computer Vision (Ope
 - Potential applications in **AR/VR, gaming, and human-computer interaction**.  
 
 
-## **🛠️ Technologies Used**  
+## **Technologies Used**  
 - **Computer Vision:** OpenCV  
 - **Hand Tracking AI Model:** MediaPipe Hands  
 - **Programming Language:** Python.
 -----------------------------------------------------------------------------------------------
+
+# **FAQ Chatbot Using NLP**  
+*An AI-powered chatbot that provides instant answers to frequently asked questions (FAQs).*  
+
+
+## **Features**  
+- **Intelligent FAQ Matching** → Uses **sentence embeddings** for better query understanding.  
+- **Fast & Efficient Search** → Finds **most relevant answers** from a dataset.  
+- **Threshold-Based Response System** → Ensures **accurate and meaningful replies**.  
+- **Deployable Web Interface** → Built using **Streamlit** for a simple user-friendly chatbot.  
+- **Pretrained NLP Model** → Uses **`sentence-transformers/all-MiniLM-L6-v2`** for efficient text processing.  
+
+
+## **Project Overview**  
+### **FAQ Dataset Processing**  
+- Loads **predefined questions & answers** from `Amazon_sagemaker_Faq.txt`.  
+- Converts **text data into embeddings** using a **Sentence Transformer model**.  
+- Stores the **vector representations** for fast similarity comparison.  
+
+### **NLP Model (Semantic Search)**  
+- User inputs a question in the chatbot UI.  
+- The chatbot **encodes the query** and finds the **closest matching FAQ** using **cosine similarity**.  
+- If similarity **exceeds a threshold (0.3)**, it returns the best-matching answer.  
+- Otherwise, it provides a **fallback response**.  
+
+### **Streamlit Web Interface**  
+- Simple UI where users can **type questions** and get instant responses.  
+- Powered by **Streamlit**, making it lightweight and deployable.  
+
+
+## **Technologies Used**  
+- **Natural Language Processing (NLP):** Sentence Transformers, PyTorch  
+- **Machine Learning Model:** `all-MiniLM-L6-v2`  
+- **Web App Framework:** Streamlit  
+- **Data Processing:** JSON  
+
+
+
+## **Expected Output**
+- **User:** *"What is Amazon SageMaker?"*  
+- **Chatbot:** *"Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, train, and deploy machine learning (ML) models quickly..."*  
+- **Fallback:** *"I'm sorry, I don't have an answer for that. Try typing a more relevant question!"*  
+
+
 
 
 
