@@ -25,6 +25,43 @@ The model consists of:
 - **Batch Normalization & MaxPooling** → Enhances feature learning.  
 - **LSTM Layers** → Captures time-dependent speech irregularities.  
 - **Dense Layers** → Fully connected layers for classification.  
-- **Softmax Activation** → Predicts **Hoehn & Yahr severity stages** (0 to 4).  
+- **Softmax Activation** → Predicts **Hoehn & Yahr severity stages** (0 to 4).
+-----------------------------------------------------------------------------------------------
+
+# **2. Hand Landmark Detection Using Computer Vision**  
+*A Real-Time AI System for Hand Tracking & Gesture Recognition*  
+
+This project implements **real-time hand tracking** using **Computer Vision (OpenCV) and AI (MediaPipe)**. The system detects **hand landmarks** (e.g., fingertips, joints) and visualizes them in a live camera feed.  
+
+## **Features**  
+- **Real-Time Hand Tracking** → Detects and tracks hands using a webcam.  
+- **Landmark Detection** → Identifies **21 hand key points** (e.g., fingertips, joints).  
+- **Fast & Efficient Model** → Powered by **MediaPipe**, optimized for real-time performance.  
+- **Dynamic Landmark Indexing** → Labels each landmark for easy analysis.  
+- **Flexible Input** → Works with both **built-in and external webcams**.  
+- **Customizable Confidence Levels** → Adjustable detection & tracking thresholds.  
+
+
+## **Project Overview**  
+### **Hand Detection & Tracking**  
+- Uses **MediaPipe Hands Model** to detect **hand presence** in a video feed.  
+- Captures **21 key landmark points** for each detected hand.  
+- Converts landmark positions from **normalized coordinates** to **pixel values**.  
+
+### **Landmark Visualization**  
+- Uses **OpenCV** to draw **landmarks & connections** on detected hands.  
+- **Displays landmark indices** to analyze hand structure.  
+
+### **Gesture Recognition (Future Work)**  
+- Can be extended to recognize **specific hand gestures** (e.g., sign language, counting fingers).  
+- Potential applications in **AR/VR, gaming, and human-computer interaction**.  
+
+
+## **🛠️ Technologies Used**  
+- **Computer Vision:** OpenCV  
+- **Hand Tracking AI Model:** MediaPipe Hands  
+- **Programming Language:** Python.
+-----------------------------------------------------------------------------------------------
+
 
 
